@@ -15,8 +15,8 @@ export default navbar([
         children: [
           { text: "苹果1", icon: "pen-to-square", link: "1" },
           { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "苹果3", icon: "pen-to-square", link: "3" },
+          { text: "苹果4", icon: "pen-to-square", link: "4" },
         ],
       },
       {
@@ -38,6 +38,7 @@ export default navbar([
           "4",
         ],
       },
+      { text: "JUC前置操作系统", icon: "pen-to-square", link: "操作系统" },
       { text: "樱桃", icon: "pen-to-square", link: "cherry" },
       { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
       "tomato",
